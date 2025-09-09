@@ -1,4 +1,4 @@
-# Mi Proyecto — Bootstrap Cheat Sheet ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
+# Mi Proyecto — ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) Cheat Sheet
 
 ## Descripción
 
