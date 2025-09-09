@@ -1,4 +1,4 @@
-<img width="505" height="128" alt="image" src="https://github.com/user-attachments/assets/79678227-4082-4aad-9f3e-d1fe01f53bf1" /># Mi Proyecto — Bootstrap Cheat Sheet ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
+# Mi Proyecto — Bootstrap Cheat Sheet ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
 
 ## Descripción
 
