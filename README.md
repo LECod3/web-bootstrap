@@ -2,9 +2,9 @@
 
 ## Descripción
 
-* Guía rápida de Bootstrap para empezar: instalación, estructura básica, utilidades, componentes comunes, inicialización de JavaScript y personalización con Sass. Pensado como cheat-sheet / README.md para proyectos.
+* Guía rápida de Bootstrap para empezar: Introducción, instalación, estructura básica, funcionamiento, componentes comunes, inicialización de JavaScript y personalización con Sass. Pensado como cheat-sheet / README.md para proyectos.
 
-<hr>
+---
 
 1 — Introducción
 Bootstrap es un framework CSS/JS que ofrece estilos y componentes listos para usar. Ideal para prototipos rápidos y para mantener consistencia visual.
@@ -35,9 +35,10 @@ Bootstrap es un framework CSS/JS que ofrece estilos y componentes listos para us
 </html>
 ```
 
-5 — Grid (columnas)
+4 — Funcionamiento
 
-Sistema basado en row y col-{breakpoint}-{n}.
+Sistema basado en container (contenedores), row (filas), col (columnas) y breakpoints (puntos de quiebre).
+
 ```html
 <div class="container">
  <div class="row">
@@ -47,9 +48,9 @@ Sistema basado en row y col-{breakpoint}-{n}.
 </div>
 ```
 
-Breakpoints comunes: sm, md, lg, xl, xxl.
+Breakpoints comunes: sm, md, lg, xl, xxl. (pequeño, mediano, largo, extra largo, super largo)
 
-6 — Utilidades rápidas
+5 — Utilidades rápidas
 
 Espaciado: ```m-?``` margen, ```p-?``` padding. Ej: ```mt-3, px-2```.
 
