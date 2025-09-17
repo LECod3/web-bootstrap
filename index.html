@@ -10,18 +10,19 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 
-<body>
+<body class="bg-dark">
+
   <!--Header-->
 
-  <header class="p-2 position-sticky top-0 bg-primary">
-    <div class="container-fluid position-sticky top-0 bg-primary">
+  <header class="p-3 bg-black">
+    <div class="container-fluid bg-black">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0">
           <img class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"
             src="https://picsum.photos/seed/picsum/200/300" />
         </a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Inicio</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Precios</a></li>
           <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
@@ -35,7 +36,7 @@
           <button type="button" class="btn btn-outline-light me-2">
             Login
           </button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+          <button type="button" class="btn btn-warning">Registarse</button>
         </div>
       </div>
     </div>
@@ -43,75 +44,79 @@
 
   <!--Hero-->
 
-  <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4"
-      src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+  <div class="row justify-content-center align-items-center g-5 p-0 m-0">
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-white lh-1 mb-3">Responsive left-aligned hero with image</h1>
+      <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
         popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
         prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
-          class="btn btn-primary btn-lg px-4 gap-3">Primary button</button> <button type="button"
-          class="btn btn-outline-secondary btn-lg px-4">Secondary</button> </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+          class="btn btn-primary btn-lg px-4 me-md-2">Primary</button> <button type="button"
+          class="btn btn-outline-secondary btn-lg px-4">Default</button> </div>
+    </div>
+    <div class="col-10 col-sm-8 col-lg-3 p-0">
+      <img src="https://picsum.photos/seed/picsum/100/100" class="d-block mx-lg-auto img-fluid p-0 m-0 w-100"
+      alt="Bootstrap Themes" loading="lazy">
     </div>
   </div>
 
   <!-- Feature -->
 
-  <div id="Features" class="row g-0 p-0 row-cols-1 row-cols-lg-3 bg-dark text-white">
-    <div class="feature col">
-      <div
-        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em" aria-hidden="true">
-          <use xlink:href="#collection"></use>
-        </svg>
+  <div class="container p-0 text-center">
+    <div id="Features" class="row g-0 row-cols-1 row-cols-lg-3 bg-dark text-white">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="https://picsum.photos/600/400" alt="Descripción de la imagen" class="img-fluid rounded"
+            style="width:100%; height:250px; object-fit:cover;">
+        </div>
+        <h3 class="fs-2 text-white bg-primary">Registra un Dominio</h3>
+        <p>El dominio es tu marca en Internet y puedes registrarlo en este preciso momento.</p>
+        <a href="#" class="icon-link">
+          Acción
+          <svg class="bi" aria-hidden="true">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
       </div>
-      <h3 class="fs-2 text-body-emphasis bg-primary">Titulo 1</h3>
-      <p>Parrafo 1</p>
-      <a href="#" class="icon-link">
-        Acción
-        <svg class="bi" aria-hidden="true">
-          <use xlink:href="#chevron-right"></use>
-        </svg>
-      </a>
-    </div>
-    <div class="feature col">
-      <div
-        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em" aria-hidden="true">
-          <use xlink:href="#people-circle"></use>
-        </svg>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="https://picsum.photos/600/400" alt="Descripción de la imagen" class="img-fluid rounded"
+            style="width:100%; height:250px; object-fit:cover;">
+        </div>
+        <h3 class="fs-2 text-white bg-primary">Hosting en Argentina</h3>
+        <p>Te ofreceremos un espacio en nuestros servidores para publicar tu sitio y cuidaremos de él.</p>
+        <a href="#" class="icon-link">
+          Accion
+          <svg class="bi" aria-hidden="true">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
       </div>
-      <h3 class="fs-2 text-body-emphasis bg-primary">Titulo 2</h3>
-      <p>Parrafo 2</p>
-      <a href="#" class="icon-link">
-        Accion
-        <svg class="bi" aria-hidden="true">
-          <use xlink:href="#chevron-right"></use>
-        </svg>
-      </a>
-    </div>
-    <div class="feature col">
-      <div
-        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <svg class="bi" width="1em" height="1em" aria-hidden="true">
-          <use xlink:href="#toggles2"></use>
-        </svg>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="https://picsum.photos/600/400" alt="Descripción de la imagen" class="img-fluid rounded"
+            style="width:100%; height:250px; object-fit:cover;">
+        </div>
+        <!--FS= Font Size -->
+        <h3 class="fs-2 text-white bg-primary">Crea o sube tu sitio web</h3>
+        <p>Recibe el alta de tu Hosting y sube un sitio web que hayas desarrollado. Si no tienes uno podrás crearlo
+          online.</p>
+        <a href="#" class="icon-link">
+          Accion
+          <svg class="bi" aria-hidden="true">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
       </div>
-      <h3 class="fs-2 text-body-emphasis bg-primary">Titulo 3</h3>
-      <p>Parrafo 3</p>
-      <a href="#" class="icon-link">
-        Accion
-        <svg class="bi" aria-hidden="true">
-          <use xlink:href="#chevron-right"></use>
-        </svg>
-      </a>
     </div>
   </div>
 
   <!-- Precios -->
 
-  <div class="container-fluid p-0 text-white bg-dark" id="Precios">
+  <div class="container p-0 text-white bg-dark" id="Precios">
     <header>
       <div class="d-flex flex-column flex-md-row align-items-center">
         <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
@@ -124,10 +129,9 @@
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h1 class="display-4 fw-normal">Precios</h1>
         <p class="fs-5">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-          aliquam iste consequatur ea cupiditate, non provident voluptas
-          soluta voluptatibus esse iusto illo ducimus rem quisquam eos
-          exercitationem, reiciendis natus animi?
+          Procesamos tu pago en Argentina y facturamos local, con lo que no deberás pagar impuestos adicionales a tu
+          plan. Nuestros precios no tienen sorpresas. Nada de impuestos de tarjeta, ni retenciones, ni nada. ¡Tu pago en
+          Pesos y tu billetera feliz!
         </p>
       </div>
     </header>
@@ -136,11 +140,11 @@
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Gratis</h4>
+              <h4 class="my-0 fw-normal">Iniciante</h4>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">
-                $0<small class="text-body-secondary fw-light">/mes</small>
+                $5<small class="text-body-secondary fw-light">/mes</small>
               </h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>Hasta 10 usuarios</li>
